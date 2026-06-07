@@ -204,7 +204,7 @@
 ### 7.1 文件结构
 
 ```
-ai_dome/
+AgentAtlas/
 ├── index.html              # 列表页(Home)
 ├── agent.html              # 详情页(同源,通过 ?id= 切换)
 ├── about.html              # 关于页
@@ -234,7 +234,7 @@ ai_dome/
 
 ### 7.3 部署
 
-- **本地预览**:`cd ai_dome && python3 -m http.server 8000` → http://localhost:8000
+- **本地预览**:`cd AgentAtlas && python3 -m http.server 8000` → http://localhost:8000
 - **GitHub Pages**:推 GitHub 仓库,Settings → Pages → 选 `main` 分支根目录
 - **不部署到任何商业平台**(享总明确要求纯本地为主)
 

@@ -18,7 +18,7 @@
 ## 📂 目录结构
 
 ```
-ai_dome/
+AgentAtlas/
 ├── index.html              # 首页（agent 列表）
 ├── agent.html              # 详情页
 ├── about.html              # 关于页
@@ -68,7 +68,7 @@ git push -u origin main
 ## 🔄 刷新 GitHub Star 数据
 
 ```bash
-cd ai_dome
+cd AgentAtlas
 python3 scripts/refresh.py
 ```
 

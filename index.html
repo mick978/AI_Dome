@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgentAtlas — AI Agent 目录</title>
+  <meta name="description" content="精选 AI Agent 框架与产品目录。覆盖国内外主流 Agent 工具,持续更新。">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./index.html">
+        <span class="brand-logo">🗺️</span>
+        <span>AgentAtlas</span>
+      </a>
+      <nav class="nav">
+        <a href="./index.html">浏览</a>
+        <a href="./about.html">关于</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <h1>AI Agent 目录</h1>
+      <p>精选国内外主流 AI Agent 框架、平台与工具,持续更新。</p>
+      <div class="hero-stats">
+        <span>共收录 <strong id="stat-count">—</strong> 个 Agent</span>
+        <span>·</span>
+        <span>国内 <strong>—</strong> + 国际 <strong>—</strong></span>
+        <span>·</span>
+        <span>数据更新于 <strong>2026-06-07</strong></span>
+      </div>
+    </section>
+
+    <section class="filter-bar">
+      <input type="search" id="filter-search" placeholder="🔍 搜索 agent 名称、标签、描述...">
+      <select id="filter-category">
+        <option value="all">所有分类</option>
+        <option value="framework">Framework</option>
+        <option value="platform">Platform</option>
+        <option value="tool">Tool</option>
+        <option value="infrastructure">Infrastructure</option>
+        <option value="protocol">Protocol</option>
+        <option value="product">Product</option>
+      </select>
+      <select id="filter-origin">
+        <option value="all">所有来源</option>
+        <option value="china">🇨🇳 国内</option>
+        <option value="international">🌍 国际</option>
+      </select>
+      <select id="filter-language">
+        <option value="all">所有语言</option>
+      </select>
+    </section>
+
+    <section class="agents-grid" id="agents-grid">
+      <div class="empty">加载中…</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>AgentAtlas · 静态站点 · <a href="./about.html">关于</a> · 数据来源 GitHub API + 人工维护</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
